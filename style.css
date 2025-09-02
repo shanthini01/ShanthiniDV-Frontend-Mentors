@@ -54,7 +54,7 @@
   }
    
   .recipe-container { 
-    padding: 2.5rem;
+    padding: clamp(1rem, 5vw, 3rem); /*Consider using CSS functions like calc(), min(), and clamp() to create more responsive and flexible layouts that adapt to different viewport sizes.*/
   }
    
   .recipe-prep-time {
@@ -76,7 +76,7 @@
    
   ul, ol {
     margin: 0;
-    padding-left: 1.5rem;
+    padding-inline-start: 1.5rem; /*Use logical properties (e.g., inline-start instead of left) to support different reading directions and improve internationalization.*/
   }
    
   ul li, ol li {
@@ -86,7 +86,7 @@
   }
    
   hr {
-    height: 1px;
+    height: 0.063rem;
     background-color: var(--color-stone-150);
     border: none;
   }
@@ -118,7 +118,9 @@
   }
    
   /* Desktop styles */
-  @media (min-width: 769px) {
+  @media (min-width: 48rem) { 
+    /* Use em or rem units in media queries to respect user font-size preferences and ensure better accessibility. */
+    /* 768px - 48rem*/
     body {
       display: grid;
       justify-content: center;
@@ -129,12 +131,11 @@
    
     .wrapper {
      
-      width: 740px;
+      width: 46.25rem;
       border-radius: 1.5rem;
       overflow: hidden; 
-      border-radius: 1.5rem;
       padding: 2.5rem;
-      margin-top: 20vh;
+      margin-top: 15vh;
       margin-bottom: 20vh;
     }
   
