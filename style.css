@@ -118,14 +118,13 @@
   }
    
   /* Desktop styles */
-  @media (min-width: 720px) {
+  @media (min-width: 769px) {
     body {
       display: grid;
       justify-content: center;
       align-items: center;
       min-height: 100vh;
-      margin-right: auto;
-      margin-left: auto;
+     
     }
    
     .wrapper {
@@ -135,6 +134,8 @@
       overflow: hidden; 
       border-radius: 1.5rem;
       padding: 2.5rem;
+      margin-top: 20vh;
+      margin-bottom: 20vh;
     }
   
     .recipe-img {
