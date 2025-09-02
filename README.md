@@ -37,8 +37,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ---
 ### Links
 
-- Solution URL: [https://github.com/shanthini01/ShanthiniDV-Frontend-Mentors](https://github.com/shanthini01/ShanthiniDV-Frontend-Mentors)
-- Live Site URL: [https://shanthini01.github.io/ShanthiniDV-Frontend-Mentors](https://shanthini01.github.io/ShanthiniDV-Frontend-Mentors)
+- Solution URL: [https://github.com/shanthini01/ShanthiniDV-Recipe-Page-Main](https://github.com/shanthini01/ShanthiniDV-Recipe-Page-Main)
+- Live Site URL: [https://shanthini01.github.io/ShanthiniDV-Recipe-Page-Main](https://shanthini01.github.io/ShanthiniDV-Recipe-page-Main)
 
 ------
 
