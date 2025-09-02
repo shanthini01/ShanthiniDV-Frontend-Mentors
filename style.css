@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* existing CSS for fonts and variables */
 @font-face {
     font-family: "Young Serif";
@@ -143,9 +142,8 @@
       border-radius: 1rem; 
     }
     
-=======
 /* existing CSS for fonts and variables */
-@font-face {
+  @font-face {
     font-family: "Young Serif";
     src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
     font-weight: 400;
@@ -288,5 +286,4 @@
       border-radius: 1rem; 
     }
     
->>>>>>> 24c2490997bd9388a56c7d39f12c81c1cd7d5f49
   }
